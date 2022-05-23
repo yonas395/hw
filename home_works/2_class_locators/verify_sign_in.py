@@ -8,6 +8,11 @@ driver.get("https://www.amazon.com/")
 
 var = driver.find_element(By.XPATH, "//span[text()='& Orders']").click()
 
+    expected_result = 'sign in page must come'
+    actual_result = context.driver.get(f"https://www.amazon.com/ap/signin?")
+
+    assert expected_result == actual_result,  f'Error! Actual text {actual_result} does not match expected{expected_result}'
+
 
 
 
