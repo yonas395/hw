@@ -1,0 +1,42 @@
+img {
+  max-width: 100%;
+}
+
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYK7OWXNdDW_lYhx013g_KIPfOgZFI0ndUeA&usqp=CAU");
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  color:black;
+  margin-left: 20px;
+}
+
+h2 {
+  color:blue
+}
+
+.ingredients{
+    display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.main-in-wrap {
+    display: flex;
+}
+.three {
+    font-size: xx-large;
+    color: purple;
+}
+#how_to h2 {
+color: blue;
+}
+
+.how-to-ditail {
+ font-size: large;
+    color: purple;
+}
