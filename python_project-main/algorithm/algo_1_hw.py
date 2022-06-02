@@ -3,16 +3,16 @@ import math
 from random import randint
 
 
-# 1.Compute the sum of digits in all numbers from 1 to n
+ 1.Compute the sum of digits in all numbers from 1 to n
 # O(n)
-# random_number = int(input('enter any random number: '))
+ random_number = int(input('enter any random number: '))
 
-# result = 0
+ result = 0
 
-# for i in range(1, random_number + 1):
-#    result = result + i
+ for i in range(1, random_number + 1):
+    result = result + i
 
-# print(result)
+ print(result)
 
 
 
@@ -22,13 +22,13 @@ from random import randint
 # ------Q 2.Find max number-------#
 
 #O(n)
-# list = [126, 465, 789]
+ list = [126, 465, 789]
 
-#big_num = list[0]
-# for i in range(0, len(list), 1):
-#    big_num = max(big_num, list[i])
+big_num = list[0]
+ for i in range(0, len(list), 1):
+    big_num = max(big_num, list[i])
 
-# print(big_num)
+ print(big_num)
 
 
 

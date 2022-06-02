@@ -6,15 +6,15 @@
 # string slicing
 # O(2)
 
-#test_str = "codingisfun"
+test_str = "codingisfun"
 
-#print("The original string is : " + test_str)
+print("The original string is : " + test_str)
 
-#first_half, second_half = test_str[:len(test_str)//2], test_str[len(test_str)//2:]
+first_half, second_half = test_str[:len(test_str)//2], test_str[len(test_str)//2:]
 
 
-#print("The first part of string : " + first_half)
-#print("The second part of string : " + second_half)
+print("The first part of string : " + first_half)
+print("The second part of string : " + second_half)
 
 ##-------------Unique Characters in String------------###
 # Approach 1 – Brute Force technique: Run 2 loops with variable i and j. Compare str[i] and str[j].
